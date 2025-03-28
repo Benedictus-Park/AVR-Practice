@@ -9,10 +9,6 @@
     $\leftrightarrows$ 아직 Internal Clock Source는 사용하고 있지 않음.
 ## 현재까지 다뤄본 것
 ### 1. 단순 Pin 5V Out 및 Busy Wait 사용
-- util/delay.h의 _delay_ms 사용
+- [util/delay.h의 _delay_ms 사용](https://until.blog/@benedictuspark/atmega128a--led-%EB%91%90-%EA%B0%9C-%EB%B2%88%EA%B0%88%EC%95%84-%EA%B9%9C%EB%B9%A1%EC%9D%B4%EA%B8%B0)
 ### 2. Timer/Counter0 CTC 사용
-- $\approx$ 2049.18Hz로 Passive Buzzer 사용하기
-
-## 공부한 내용에 관한 글
-### 블로그 링크
-https://until.blog/@benedictuspark/collections/atmega128a
+- [$\approx$ 2049.18Hz로 Passive Buzzer 사용하기](https://until.blog/@benedictuspark/atmega128a-8bit-timer-counter0-ctc%EB%A1%9C-%EB%B6%80%EC%A0%80-%EB%8B%A4%EB%A3%A8%EA%B8%B0-)
